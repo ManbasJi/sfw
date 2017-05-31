@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:clickable="false"
+    android:background="@color/white"
+   >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/line01"></View>
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/iv_housePhoto"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/defaulthouse_bg"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/tv_houseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_housePhoto"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/main_blue"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/tv_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_housePhoto"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_01"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/tv_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_housePhoto"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_01"
+            android:layout_alignBottom="@+id/iv_housePhoto"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/red_normal"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

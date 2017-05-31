@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#eeff994f</color>
+    <color name="purple_pressed">#9F79EE</color>
+
+    <color name="super_light_grey">#EEEEEE</color>
+    <color name="white">#ffffff</color>
+
+    <color name="tshen_sek">#7bd5e1</color>
+    <color name="violet">#6c518b</color>
+
+    <color name="row_left">#cccccc</color>
+    <color name="line01">#f0f0f0</color>
+    <color name="row_right">@color/tshen_sek</color>
+
+
+    <color name="text_01">#000000</color>
+    <color name="text_02">#5e5d5d</color>
+    <color name="main_blue">#13B7F6</color>
+    <color name="deep_blue">#1357f6</color>
+</resources>

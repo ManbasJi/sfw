@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="right">
+
+        <TextView
+            android:text="照片："
+            android:layout_width="wrap_content"
+            android:gravity="right|center"
+            android:layout_height="100dp"
+            android:textSize="16dp"
+            android:textColor="@color/text_02"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:text="经纪人员："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/text_02"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:text="联系电话："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/text_02"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/right_image"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text2"
+            android:textColor="@color/text_01"
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text3"
+            android:textColor="@color/red_normal"
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+    </LinearLayout>
+</LinearLayout>

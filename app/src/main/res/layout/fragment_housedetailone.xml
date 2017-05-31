@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text1"
+            android:textColor="@color/text_02"
+            android:text="房屋位置："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text2"
+            android:textColor="@color/text_02"
+            android:text="竣工年份："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text3"
+            android:textColor="@color/text_02"
+            android:text="房屋朝向："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text4"
+            android:textColor="@color/text_02"
+            android:text="所在楼层："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text5"
+            android:textColor="@color/text_02"
+            android:text="房屋结构："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text6"
+            android:textColor="@color/text_02"
+            android:text="装修程度："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text7"
+            android:textColor="@color/text_02"
+            android:text="房屋用途："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text8"
+            android:textColor="@color/text_02"
+            android:text="权属类别："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text9"
+            android:textColor="@color/text_02"
+            android:text="装饰/设备："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text10"
+            android:textColor="@color/text_02"
+            android:text="配套设施："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text11"
+            android:textColor="@color/text_02"
+            android:text="社区情况："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text12"
+            android:textColor="@color/text_02"
+            android:text="物管情况："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text13"
+            android:textColor="@color/text_02"
+            android:text="交通线路："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_text14"
+            android:textColor="@color/text_02"
+            android:text="特别说明："
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text1"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text2"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text3"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text4"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text5"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text6"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text7"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text8"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text9"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text10"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text11"
+            android:textSize="16dp"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text12"
+            android:textColor="@color/text_01"
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text13"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:textSize="16dp"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_text14"
+            android:textColor="@color/text_01"
+            android:layout_marginTop="7dp"
+            android:textSize="16dp"
+            android:layout_marginBottom="7dp"/>
+    </LinearLayout>
+</LinearLayout>
